@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_status"
+            android:title="@string/navigation_drawer_status_title" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_manage"
+            android:title="@string/navigation_drawer_manage_title" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/navigation_drawer_about_title" />
+    </group>
+
+</menu>
